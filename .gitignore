@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Uploads & local media
+uploads/*
+!uploads/.gitkeep
+
+# Database temporary files
+*.tmp
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
